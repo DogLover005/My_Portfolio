@@ -1,0 +1,125 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #e50914;
+}
+
+.project-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #222;
+  padding: 1.5rem;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.project-card p {
+  color: #aaa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  color: #666;
+  font-size: 0.9rem;
+}

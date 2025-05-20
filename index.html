@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swagath's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero-content h1 {
+        font-size: 2rem;
+      }
+
+      .project-container {
+        flex-direction: column;
+      }
+
+      form {
+        width: 100%;
+      }
+
+      input, textarea, button {
+        width: 100%;
+      }
+    }
+    .icon-img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SwagFlix</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="https://github.com/DogLover005" target="_blank"><img class="icon-img" src="https://e7.pngegg.com/pngimages/551/770/png-clipart-github-pages-logo-repository-fork-github-mammal-cat-like-mammal.png" alt="GitHub Icon">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/swagathchandran" target="_blank"><img class="icon-img" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon">LinkedIn</a></li>
+        <li><a href="https://instagram.com/swagathchandran" target="_blank"><img class="icon-img" src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Swagath's Portfolio</h1>
+      <p>Developer. Designer. Dreamer.</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hey! I'm Swagathchandran Sumeeth, a passionate AI/ML enthusiast, Web developer. Always up for new challenges and projects.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Netflix Clone</h3>
+        <p>A pixel-perfect clone of Netflix with vanilla HTML/CSS/JS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Site</h3>
+        <p>This very site you're on — hosted on GitHub Pages!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mjkwzjgy" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+  </form>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Swagath. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
